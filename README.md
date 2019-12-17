@@ -10,9 +10,9 @@ The repository includes:
 # Installation
 
 ## Download
-Features used for Charades-STA can be downloaded from the following (https://drive.google.com/open?id=16CNli3XE8B_Bsr3EzcRHu-VSI_juvv8t)[link]
+Features used for Charades-STA can be downloaded from the following [link](https://drive.google.com/open?id=16CNli3XE8B_Bsr3EzcRHu-VSI_juvv8t)
 
-We train our model using pre-trained word vectors (http://nlp.stanford.edu/data/glove.840B.300d.zip)[glove.840B.300d.zip]
+We train our model using pre-trained word vectors [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip)
 
 ## Requirements
 We share a list of package used in our anaconda virtual enviroment in packagelist.txt, which can be used to create an identical environment with the following command
