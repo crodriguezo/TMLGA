@@ -1,0 +1,13 @@
+from yacs.config import CfgNode as CN
+
+_C = CN()
+
+_C.LSTM = CN()
+
+_C.LSTM.INPUT_SIZE = 300
+_C.LSTM.NUM_LAYERS = 2
+_C.LSTM.HIDDEN_SIZE = 512
+_C.LSTM.BIAS = True
+_C.LSTM.DROPOUT = 0.
+_C.LSTM.BIDIRECTIONAL = True
+_C.LSTM.BATCH_FIRST = True

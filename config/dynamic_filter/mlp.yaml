@@ -1,0 +1,4 @@
+DYNAMIC_FILTER:
+    MLP:
+        INPUT_DIM : 256
+        OUTPUT_DIM: 512

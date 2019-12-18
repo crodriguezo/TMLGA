@@ -1,0 +1,8 @@
+DYNAMIC_FILTER:
+    MULTIHEAD:
+        EMBED_DIM: 300
+        NUM_HEADS: 3
+        DROPOUT: 0.5
+        BIAS: False
+        ADD_BIAS_ATTN: False
+        ADD_ZERO_ATTN: False

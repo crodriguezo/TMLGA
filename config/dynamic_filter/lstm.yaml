@@ -1,0 +1,9 @@
+DYNAMIC_FILTER:
+    LSTM:
+        INPUT_SIZE: 300
+        NUM_LAYERS: 1
+        HIDDEN_SIZE: 256
+        BIAS: True
+        DROPOUT: 0.5
+        BIDIRECTIONAL: True
+        BATCH_FIRST: True
