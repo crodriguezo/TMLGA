@@ -69,7 +69,7 @@ TEST:
 ## Citation
 ```bibtex
 @article{opazo2019proposal,
- author = {C. Rodríguez-Opazo and Marrese-Taylor, Edison and Saleh, Fatemeh Sadat and Li, Hongdong and Gould, Stephen},
+ author = {Rodríguez-Opazo, Cristian and Marrese-Taylor, Edison and Saleh, Fatemeh Sadat and Li, Hongdong and Gould, Stephen},
  journal = {Winter Conference on Applications of Computer Vision},
  title = {Proposal-free Temporal Moment Localization of a Natural-Language Query in Video using Guided Attention},
  year = {2020}
