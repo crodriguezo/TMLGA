@@ -8,20 +8,13 @@ The repository includes:
 * Evaluation
 
 # Installation
-
-## Download
-Features used for Charades-STA can be downloaded from the following [link](https://drive.google.com/open?id=16CNli3XE8B_Bsr3EzcRHu-VSI_juvv8t)
-
-We train our model using pre-trained word vectors [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip)
-
 ## Requirements
-We share a list of package used in our anaconda virtual enviroment in packagelist.txt, which can be used to create an identical environment with the following command
+We share a list of package used in our virtual enviroment in packagelist.txt, which can be used to create an identical environment with the following command
 
 ```bash
 conda create --name myenv --file packageslist.txt
 ```
 
-<<<<<<< HEAD
 ## Download
 
 **I3D Features**
@@ -61,8 +54,6 @@ We use tensorboardx to visualize the training and testing stage of our network.
 ```bash
 tensorboard --logdir=experiments/visualization/charades_sta_train/
 ```
-=======
->>>>>>> 39737cb8b2d541fe73cd0520431536c606d4d85b
 # Testing
 
 **Pretrained weights**
@@ -74,6 +65,15 @@ To run the pretrained weights we need to change the `experiments/charades_sta.ya
 ENGINE_STAGE: "TESTER"
 TEST:
     MODEL: "<path_to_project>/checkpoints/charades_sta/model_charades_sta"
+```
+## Citation
+```bibtex
+@article{opazo2019proposal,
+ author = {C. Rodríguez-Opazo and Marrese-Taylor, Edison and Saleh, Fatemeh Sadat and Li, Hongdong and Gould, Stephen},
+ journal = {Winter Conference on Applications of Computer Vision},
+ title = {Proposal-free Temporal Moment Localization of a Natural-Language Query in Video using Guided Attention},
+ year = {2020}
+}
 ```
 
 
