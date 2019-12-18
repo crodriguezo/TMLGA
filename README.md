@@ -15,6 +15,9 @@ We share a list of package used in our virtual enviroment in packagelist.txt, wh
 conda create --name myenv --file packageslist.txt
 ```
 
+**spacy**
+`python -m spacy download en_core_web_md`
+
 ## Download
 
 **I3D Features**
@@ -24,6 +27,7 @@ conda create --name myenv --file packageslist.txt
   
 **GLoVe**
 * [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip)
+
 
 ## Configuration
 To run these code we first need to change the path directory to features, glove embeddings and annotations in `config/path_catalog.py`.
