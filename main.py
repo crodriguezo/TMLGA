@@ -13,7 +13,7 @@ from utils.logger import setup_logger
 from engine import trainer, tester
 
 def main():
-    parser = argparse.ArgumentParser(description="PyTorch Object Detection Training")
+    parser = argparse.ArgumentParser(description="PyTorch Query Localization in Videos Training")
     parser.add_argument(
         "--config-file",
         default="",

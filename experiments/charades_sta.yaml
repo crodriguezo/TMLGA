@@ -2,7 +2,7 @@
 
 ENGINE_STAGE: "TESTER"
 TEST:
-    MODEL: "/home/crodriguezo/TMLGA/checkpoints/charades_sta/model_charades_sta"
+    MODEL: "./checkpoints/charades_sta/model_charades_sta"
     
 SENTENCE:
     MIN_COUNT: 1
