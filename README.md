@@ -66,7 +66,7 @@ python main.py --config-file=experiments/charades-sta.yaml
 If you are interested in downloading some specific resource only, we provide the links below.
 
 **I3D Features**
-* [Charades-STA](https://drive.google.com/open?id=16CNli3XE8B_Bsr3EzcRHu-VSI_juvv8t)
+* [Charades-STA](https://zenodo.org/record/3590426/files/i3d_charades_sta.zip)
 * Activity-Net (coming soon)
 * YouCookII (coming soon)
   
@@ -75,13 +75,13 @@ If you are interested in downloading some specific resource only, we provide the
 
 **Pretrained weights**
 
-* [Charades-STA](https://drive.google.com/open?id=1SwvR-CeB3xL-UdqiHSPMoWRT2RFmP9Jh)
+* [Charades-STA](https://zenodo.org/record/3590426/files/model_charades_sta)
 * Activity-Net (coming soon)
 
 
 # Citation
 
-If you use or code or data please consider citing our work.
+If you use our code or data please consider citing our work.
 
 ```bibtex
 @article{opazo2019proposal,
