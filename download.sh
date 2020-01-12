@@ -13,9 +13,9 @@ wget -P DOWNLOAD_PATH/word_embeddings http://nlp.stanford.edu/data/glove.840B.30
 unzip DOWNLOAD_PATH/word_embeddings/glove.840B.300d.zip
 
 # download CHARADES features
-wget -P DOWNLOAD_PATH URL_TO_CHARADES_FEATURES
+wget -P DOWNLOAD_PATH https://zenodo.org/record/3590426/files/i3d_charades_sta.zip
 unzip DOWNLOAD_PATH/i3d_charades_sta.zip -d i3d_charades_sta   
 
 # download CHARADES pre-trained model
 mkdir -p checkpoints/charades_sta
-wget -P ./checkpoints/charades_sta/ URL_TO_CHARADES_MODEL 
+wget -P ./checkpoints/charades_sta/ https://zenodo.org/record/3590426/files/model_charades_sta
