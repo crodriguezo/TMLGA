@@ -68,6 +68,7 @@ If you are interested in downloading some specific resource only, we provide the
 **I3D Features**
 * [Charades-STA](https://zenodo.org/record/3590426/files/i3d_charades_sta.zip)
 * Activity-Net (coming soon)
+* TACoS (coming soon)
 * YouCookII (coming soon)
   
 **GLoVe**
@@ -76,6 +77,7 @@ If you are interested in downloading some specific resource only, we provide the
 **Pretrained weights**
 
 * [Charades-STA](https://zenodo.org/record/3590426/files/model_charades_sta)
+* TACoS (coming soon)
 * Activity-Net (coming soon)
 
 
