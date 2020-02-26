@@ -152,7 +152,13 @@ def tester(cfg):
     dataloader_test, dataset_size_test   = data.make_dataloader(cfg, is_train=False)
 
     model = modeling.build(cfg)
-    model = torch.load(cfg.TEST.MODEL)
+
+    if cfg.TEST.MODEL.startswith('.'):
+        load_path = cfg.TEST.MODEL.replace(".", os.path.realpath("."))
+    else:
+        load_path = cfg.TEST.MODEL
+
+    model = torch.load(load_path)
     model.cuda()
 
     vis_test  = Visualization(cfg, dataset_size_test, is_train=False)
