@@ -67,9 +67,8 @@ If you are interested in downloading some specific resource only, we provide the
 
 **I3D Features**
 * [Charades-STA](https://zenodo.org/record/3590426/files/i3d_charades_sta.zip)
-* Activity-Net (coming soon)
-* TACoS (coming soon)
-* YouCookII (coming soon)
+* Activity-Net [1](https://zenodo.org/records/3955227/files/ANet_training.zip) [2](https://zenodo.org/records/3955227/files/ANet_validation.zip)
+* [YouCookII](https://zenodo.org/records/11557525/files/youcookII_i3d.zip)
   
 **GLoVe**
 * [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip)
@@ -77,8 +76,6 @@ If you are interested in downloading some specific resource only, we provide the
 **Pretrained weights**
 
 * [Charades-STA](https://zenodo.org/record/3590426/files/model_charades_sta)
-* TACoS (coming soon)
-* Activity-Net (coming soon)
 
 
 # Citation
